@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #121212;
+    color: #e4e4e4;
+    line-height: 1.7;
+}
+
+/* HERO */
+.hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1f1f1f, #0b0b0b);
+    text-align: center;
+    padding: 40px;
+}
+
+.hero-content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+
+/* BOTONES */
+.btn-main, .btn-secondary {
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-main {
+    background: #2c7be5;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #444;
+    color: #fff;
+}
+
+/* SECCIONES */
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section.dark {
+    background: #1b1b1b;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    margin-left: 20px;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 70px 20px;
+    background: #0e0e0e;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    background: #090909;
+}
+
+/* ANIMACIONES */
+.fade {
+    opacity: 1;
+    transform: none;
+}
+
+.fade.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
