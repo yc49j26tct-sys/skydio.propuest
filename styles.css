@@ -97,6 +97,6 @@ footer {
 }
 
 .fade.visible {
-    opacity: 1;
+    opacity: 3;
     transform: translateY(0);
 }
